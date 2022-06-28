@@ -1,0 +1,39 @@
+@import "colores";
+
+ul {
+    list-style: none;
+    li {
+        display: inline-block;
+        margin-left: 8px;
+        padding: 8px;
+    }
+    &:first-child {
+        margin: 0;
+    }
+    .transicionNav {
+        transition: all;
+        &:hover {
+            background-color: $colorSecundario;
+            border-radius: 30px;
+        }
+    }
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: $grey2;
+}
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-area: nav;
+}
+
+.tranformacionRedes:hover {
+    transform: scale(1.1, 1.1);
+}

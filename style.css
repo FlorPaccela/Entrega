@@ -1,0 +1,837 @@
+/*comentario*/
+@import url("https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,400;0,700;1,100 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.preguntan-uno {
+  color: #0F8F6E;
+}
+
+.preguntan-dos {
+  color: #1073ac;
+}
+
+.preguntan-tres {
+  color: #0f32d0;
+}
+
+.preguntan-cuatro {
+  color: #5f0fd0;
+}
+
+.preguntan-cinco {
+  color: #d00fc3;
+}
+
+.preguntan-seis {
+  color: #d00f4f;
+}
+
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  color: #3E3E3E;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 400;
+  color: #727272;
+}
+
+h3 {
+  font-size: 24px;
+  color: #0F8F6E;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 350;
+}
+
+.preguntan-uno {
+  color: #0F8F6E;
+}
+
+.preguntan-dos {
+  color: #1073ac;
+}
+
+.preguntan-tres {
+  color: #0f32d0;
+}
+
+.preguntan-cuatro {
+  color: #5f0fd0;
+}
+
+.preguntan-cinco {
+  color: #d00fc3;
+}
+
+.preguntan-seis {
+  color: #d00f4f;
+}
+
+.preguntan-uno {
+  color: #0F8F6E;
+}
+
+.preguntan-dos {
+  color: #1073ac;
+}
+
+.preguntan-tres {
+  color: #0f32d0;
+}
+
+.preguntan-cuatro {
+  color: #5f0fd0;
+}
+
+.preguntan-cinco {
+  color: #d00fc3;
+}
+
+.preguntan-seis {
+  color: #d00f4f;
+}
+
+.button, .buttonPlay {
+  background-color: #0F8F6E;
+  color: #f4f2f2;
+  padding: 12px;
+  border-radius: 12px;
+  text-decoration: none;
+  text-align: center;
+  transition: all;
+}
+.button:hover, .buttonPlay:hover {
+  background-color: #8DC139;
+}
+
+.buttonPlay {
+  background-color: rgb(4, 107, 102);
+}
+.buttonPlay:hover {
+  background-color: rgb(10, 188, 179);
+}
+
+.preguntan-uno {
+  color: #0F8F6E;
+}
+
+.preguntan-dos {
+  color: #1073ac;
+}
+
+.preguntan-tres {
+  color: #0f32d0;
+}
+
+.preguntan-cuatro {
+  color: #5f0fd0;
+}
+
+.preguntan-cinco {
+  color: #d00fc3;
+}
+
+.preguntan-seis {
+  color: #d00f4f;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 8px;
+}
+ul:first-child {
+  margin: 0;
+}
+ul .transicionNav {
+  transition: all;
+}
+ul .transicionNav:hover {
+  background-color: #d4edab;
+  border-radius: 30px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #727272;
+}
+
+nav {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  grid-area: nav;
+}
+
+.tranformacionRedes:hover {
+  transform: scale(1.1, 1.1);
+}
+
+header {
+  height: 450px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-image: url(../icons/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+header h2 {
+  padding-bottom: 30px;
+}
+
+.banner {
+  width: 50%;
+}
+
+.datos {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.datos .dato {
+  display: inline-block;
+  text-align: center;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.datos .dato h3 {
+  font-size: 50px;
+}
+
+.comentarios {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.comentarios .comentariosDeUsuarios {
+  display: flex;
+  align-items: top;
+  justify-content: space-evenly;
+}
+.comentarios .comentariosDeUsuarios .comentario {
+  text-align: center;
+  height: 200px;
+  width: 250px;
+  margin: 16px;
+  padding: 10px;
+  position: relative;
+}
+.comentarios .comentariosDeUsuarios .comentario h2 {
+  font-size: 150px;
+  z-index: 0;
+  color: #8DC139;
+  opacity: 50%;
+}
+.comentarios .comentariosDeUsuarios .comentario .comillas {
+  position: absolute;
+  top: -20px;
+  left: -10px;
+}
+
+.comentar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.informacion {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.informacion .info {
+  display: inline-block;
+  top: 50%;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.titulo {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.pasos {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  text-align: center;
+  position: relative;
+}
+
+.circulo {
+  background-color: #d4edab;
+  opacity: 70%;
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  right: 40%;
+  z-index: -2;
+  animation-name: circulo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.paso {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.ajustePasos {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.ajustePasos2 {
+  margin-right: 20px;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+iframe {
+  width: 660px;
+  height: 415px;
+}
+
+.videoExplicativo {
+  margin-bottom: 80px;
+  display: block;
+  text-align: center;
+}
+
+#grillaAreas {
+  display: grid;
+  grid-template-areas: "nav nav" "titulo titulo" "preguntas columna" "solicitud solicitud" "footer footer";
+  grid-template-columns: 50%;
+}
+
+#titulo {
+  grid-area: titulo;
+}
+
+#preguntas {
+  grid-area: preguntas;
+}
+
+#columna {
+  grid-area: columna;
+}
+
+#solicitud {
+  grid-area: solicitud;
+}
+
+.preguntas {
+  padding-left: 10%;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pregunta {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.preguntas p {
+  margin-bottom: 20px;
+}
+
+.solicitud {
+  width: 50%;
+  padding-left: 5%;
+  margin-bottom: 80px;
+}
+
+form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 20px;
+  height: 40px;
+  border-color: #0F8F6E;
+  border-radius: 8px;
+}
+
+textarea {
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border-color: #0F8F6E;
+}
+
+.marcas {
+  text-align: center;
+  margin-bottom: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.galeriaTiendas {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+.comercio {
+  margin: 10px;
+  width: 170px;
+  height: auto;
+}
+
+.galeriaProductos {
+  margin-bottom: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: top;
+  justify-content: space-evenly;
+}
+
+.producto {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.comida {
+  width: 200px;
+  height: auto;
+}
+
+.subtitulo {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.ultimaNoticia {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  padding-left: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.notaPrincipal {
+  margin-left: 20px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.noticiasSecundarias {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 80px;
+}
+
+.nota {
+  width: 300px;
+  padding: 10px;
+}
+
+.novedades {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.enviarEmail {
+  margin-left: 20px;
+}
+
+.escribirEmail {
+  width: 100%;
+  margin-top: 12px;
+  display: inline-block;
+}
+
+.escribirEmail input {
+  width: 80%;
+}
+
+.descripcion {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.fundadores {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ceo {
+  text-align: center;
+  width: 400px;
+}
+
+.ceo img {
+  border-radius: 50%;
+}
+
+.preguntan-uno {
+  color: #0F8F6E;
+}
+
+.preguntan-dos {
+  color: #1073ac;
+}
+
+.preguntan-tres {
+  color: #0f32d0;
+}
+
+.preguntan-cuatro {
+  color: #5f0fd0;
+}
+
+.preguntan-cinco {
+  color: #d00fc3;
+}
+
+.preguntan-seis {
+  color: #d00f4f;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #0f0f0f;
+  color: #f4f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  grid-area: footer;
+}
+
+/* RESPONSIVE DESIGN */
+/*TABLET*/
+@media (max-width: 1023px) {
+  /*INDEX*/
+  nav {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-area: nav;
+  }
+  nav a {
+    margin-bottom: 10px;
+  }
+  nav ul {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-area: footer;
+  }
+  footer a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer p {
+    margin-bottom: 20px;
+  }
+  footer .redes {
+    margin-bottom: 20px;
+  }
+  header {
+    height: 450px;
+    margin-top: 32px;
+    padding-top: 25px;
+    padding-left: 25px;
+  }
+  .banner {
+    width: 70%;
+    margin-left: 5%;
+    text-align: none;
+  }
+  .comentarios {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .comentariosDeUsuarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .comentario {
+    text-align: center;
+    height: auto;
+    width: 250px;
+    margin-bottom: 32px;
+    padding: 0px;
+    position: relative;
+  }
+  .info {
+    margin-top: 32px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .informacion {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  /*COMO FUNCIONA*/
+  .titulo {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .pasos {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  iframe {
+    width: 426px;
+    height: 240px;
+  }
+  /* PREGUNTAS */
+  #grillaAreas {
+    display: grid;
+    grid-template-areas: "nav" "titulo" "columna" "preguntas" "solicitud" "footer footer";
+    grid-template-columns: 100%;
+  }
+  .preguntas {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 0px;
+    margin-bottom: 32px;
+  }
+  .solicitud {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 32px;
+  }
+  /*NOTICIAS*/
+  .ultimaNoticia {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-left: 0%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .notaPrincipal {
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .ultimaNoticia h3 {
+    margin-top: 10px;
+  }
+  .ultimaNoticia img {
+    width: 80%;
+  }
+  .novedades img {
+    margin-bottom: 20px;
+  }
+  /*NOSOTROS*/
+  .ceo {
+    margin-bottom: 40px;
+  }
+}
+/*MOBILE*/
+@media (max-width: 480px) {
+  /*INDEX*/
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  header {
+    height: 370px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .banner {
+    width: 100%;
+    text-align: center;
+  }
+  .comentario {
+    text-align: center;
+    height: auto;
+    width: 250px;
+    margin-bottom: 20px;
+    padding: 0px;
+    position: relative;
+  }
+  /*COMO FUNCIONA*/
+  iframe {
+    width: 326px;
+    height: 200px;
+  }
+  .paso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+  }
+  .ajustePasos {
+    margin-left: 0px;
+    align-items: center;
+    text-align: center;
+  }
+  .ajustePasos2 {
+    margin-right: 0px;
+    text-align: none;
+    align-items: center;
+  }
+  /*PREGUNTAS*/
+  #grillaAreas {
+    display: grid;
+    grid-template-areas: "nav" "titulo" "columna" "preguntas" "solicitud" "footer footer";
+    grid-template-columns: 100%;
+  }
+  .preguntas {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+  .solicitud {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 24px;
+  }
+  /* TIENDAS */
+  .marcas {
+    margin-bottom: 24px;
+  }
+  .galeriaTiendas {
+    margin-bottom: 32px;
+    margin-top: 16px;
+  }
+  .galeriaProductos {
+    margin-bottom: 24px;
+  }
+  /*NOTICIAS*/
+  .ultimaNoticia {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 0%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /*NOSOTROS*/
+  .descripcion {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .info {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .informacion {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
