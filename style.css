@@ -66,6 +66,40 @@ p {
   font-weight: 350;
 }
 
+.h1 {
+  font-size: 3rem;
+  color: #3E3E3E;
+  padding-bottom: 10px;
+  font-weight: 800;
+}
+
+.h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #727272;
+}
+
+.h3 {
+  font-size: 1.5rem;
+  color: #0F8F6E;
+  font-weight: 600;
+}
+
+.h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.h5 {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.p {
+  font-size: 1rem;
+  font-weight: 350;
+}
+
 .preguntan-uno {
   color: #0F8F6E;
 }
