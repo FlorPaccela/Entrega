@@ -9,14 +9,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    .ceo {
+        text-align: center;
+        width: 400px;
+        img {
+            border-radius: 50%;
+        }
+    }
 }
 
-.ceo {
-    text-align: center;
-    width: 400px;
-    
-}
 
-.ceo img {
-    border-radius: 50%;
-}
+
+

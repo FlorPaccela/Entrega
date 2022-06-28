@@ -12,12 +12,11 @@
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-}
-
-.notaPrincipal {
-   margin-left: 20px;
-   margin-top: 40px;
-   text-align: left;
+    .notaPrincipal {
+        margin-left: 20px;
+        margin-top: 40px;
+        text-align: left;
+     }
 }
 
 .noticiasSecundarias {
@@ -29,11 +28,10 @@
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 80px;
-}
-
-.nota {
-    width: 300px;
-    padding: 10px;
+    .nota {
+        width: 300px;
+        padding: 10px;
+    }
 }
 
 .novedades {
@@ -42,18 +40,21 @@
     align-items: flex-start;
     justify-content: center;
     margin-bottom: 80px;
+    .enviarEmail {
+        margin-left: 20px;
+        .escribirEmail {
+            width: 100%;
+            margin-top: 12px;
+            display: inline-block;
+            input {
+                width: 80%;
+                padding: 8px;
+            }
+        }
+    }
+    
 }
 
-.enviarEmail {
-    margin-left: 20px;
-}
 
-.escribirEmail {
-    width: 100%;
-    margin-top: 12px;
-    display: inline-block;
-}
 
-.escribirEmail input {
-    width: 80%;
-}
+

@@ -1,3 +1,5 @@
+@import "colores";
+
 #grillaAreas {
     display: grid;
     grid-template-areas:
@@ -34,45 +36,46 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-.pregunta {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 5px;
-}
-
-.preguntas p {
-    margin-bottom: 20px;
+    .pregunta {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+    }
+    p {
+        margin-bottom: 20px;
+    }
 }
 
 .solicitud {
     width: 50%;
     padding-left: 5%;
     margin-bottom: 80px;
+    form {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        label {
+            margin-bottom: 10px;
+        }
+        input {
+            margin-bottom: 20px;
+            height: 40px;
+            border-color: $colorPrincipal;
+            border-radius: 8px;
+        }
+        textarea {
+            height: 300px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-color: $colorPrincipal;
+        }
+    }
 }
 
-form {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-}
 
-label {
-    margin-bottom: 10px;
-}
 
-input {
-    margin-bottom: 20px;
-    height: 40px;
-    border-color: #0F8F6E;
-    border-radius: 8px;
-}
 
-textarea {
-    height: 300px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    border-color: #0F8F6E;
-}
+
+
+

@@ -20,11 +20,10 @@
     justify-content: space-evenly;
     margin-bottom: 80px;
     margin-top: 40px;
-}
-
-.comercio {
-    margin: 10px;
-    @include imagenes (170px, auto);
+    .comercio {
+        margin: 10px;
+        @include imagenes (170px, auto);
+    }
 }
 
 .galeriaProductos {
@@ -36,13 +35,12 @@
     flex-wrap: wrap;
     align-items: top;
     justify-content: space-evenly;
+    .producto {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .comida {
+            @include imagenes (200px, auto);
+        }
+    }
 }
 
-.producto {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.comida {
-    @include imagenes (200px, auto);
-}

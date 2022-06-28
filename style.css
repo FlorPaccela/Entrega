@@ -35,34 +35,34 @@ body {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 3rem;
   color: #3E3E3E;
   padding-bottom: 10px;
 }
 
 h2 {
-  font-size: 34px;
+  font-size: 2rem;
   font-weight: 400;
   color: #727272;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #0F8F6E;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 200;
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 350;
 }
 
@@ -195,11 +195,35 @@ nav {
   transform: scale(1.1, 1.1);
 }
 
+.preguntan-uno {
+  color: #0F8F6E;
+}
+
+.preguntan-dos {
+  color: #1073ac;
+}
+
+.preguntan-tres {
+  color: #0f32d0;
+}
+
+.preguntan-cuatro {
+  color: #5f0fd0;
+}
+
+.preguntan-cinco {
+  color: #d00fc3;
+}
+
+.preguntan-seis {
+  color: #d00f4f;
+}
+
 header {
   height: 450px;
   margin-top: 40px;
   margin-bottom: 40px;
-  background-image: url(../icons/banner.jpg);
+  background-image: url(../imagenes/icons/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50px;
@@ -279,6 +303,30 @@ header h2 {
   margin-left: 30px;
 }
 
+.preguntan-uno {
+  color: #0F8F6E;
+}
+
+.preguntan-dos {
+  color: #1073ac;
+}
+
+.preguntan-tres {
+  color: #0f32d0;
+}
+
+.preguntan-cuatro {
+  color: #5f0fd0;
+}
+
+.preguntan-cinco {
+  color: #d00fc3;
+}
+
+.preguntan-seis {
+  color: #d00f4f;
+}
+
 .titulo {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -291,8 +339,7 @@ header h2 {
   text-align: center;
   position: relative;
 }
-
-.circulo {
+.pasos .circulo {
   background-color: #d4edab;
   opacity: 70%;
   margin-top: 50px;
@@ -306,23 +353,20 @@ header h2 {
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
-
-.paso {
+.pasos .paso {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
 }
-
-.ajustePasos {
+.pasos .paso .ajustePasos {
   margin-left: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
 }
-
-.ajustePasos2 {
+.pasos .paso .ajustePasos2 {
   margin-right: 20px;
   text-align: end;
   display: flex;
@@ -330,15 +374,38 @@ header h2 {
   align-items: flex-end;
 }
 
-iframe {
-  width: 660px;
-  height: 415px;
-}
-
 .videoExplicativo {
   margin-bottom: 80px;
   display: block;
   text-align: center;
+}
+.videoExplicativo iframe {
+  width: 660px;
+  height: 415px;
+}
+
+.preguntan-uno {
+  color: #0F8F6E;
+}
+
+.preguntan-dos {
+  color: #1073ac;
+}
+
+.preguntan-tres {
+  color: #0f32d0;
+}
+
+.preguntan-cuatro {
+  color: #5f0fd0;
+}
+
+.preguntan-cinco {
+  color: #d00fc3;
+}
+
+.preguntan-seis {
+  color: #d00f4f;
 }
 
 #grillaAreas {
@@ -372,14 +439,12 @@ iframe {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
-.pregunta {
+.preguntas .pregunta {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 5px;
 }
-
 .preguntas p {
   margin-bottom: 20px;
 }
@@ -389,25 +454,21 @@ iframe {
   padding-left: 5%;
   margin-bottom: 80px;
 }
-
-form {
+.solicitud form {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
 }
-
-label {
+.solicitud form label {
   margin-bottom: 10px;
 }
-
-input {
+.solicitud form input {
   margin-bottom: 20px;
   height: 40px;
   border-color: #0F8F6E;
   border-radius: 8px;
 }
-
-textarea {
+.solicitud form textarea {
   height: 300px;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -431,8 +492,7 @@ textarea {
   margin-bottom: 80px;
   margin-top: 40px;
 }
-
-.comercio {
+.galeriaTiendas .comercio {
   margin: 10px;
   width: 170px;
   height: auto;
@@ -448,13 +508,11 @@ textarea {
   align-items: top;
   justify-content: space-evenly;
 }
-
-.producto {
+.galeriaProductos .producto {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-.comida {
+.galeriaProductos .producto .comida {
   width: 200px;
   height: auto;
 }
@@ -474,8 +532,7 @@ textarea {
   flex-direction: row;
   align-items: flex-end;
 }
-
-.notaPrincipal {
+.ultimaNoticia .notaPrincipal {
   margin-left: 20px;
   margin-top: 40px;
   text-align: left;
@@ -491,8 +548,7 @@ textarea {
   justify-content: space-evenly;
   margin-bottom: 80px;
 }
-
-.nota {
+.noticiasSecundarias .nota {
   width: 300px;
   padding: 10px;
 }
@@ -504,19 +560,17 @@ textarea {
   justify-content: center;
   margin-bottom: 80px;
 }
-
-.enviarEmail {
+.novedades .enviarEmail {
   margin-left: 20px;
 }
-
-.escribirEmail {
+.novedades .enviarEmail .escribirEmail {
   width: 100%;
   margin-top: 12px;
   display: inline-block;
 }
-
-.escribirEmail input {
+.novedades .enviarEmail .escribirEmail input {
   width: 80%;
+  padding: 8px;
 }
 
 .descripcion {
@@ -531,13 +585,11 @@ textarea {
   flex-wrap: wrap;
   justify-content: center;
 }
-
-.ceo {
+.fundadores .ceo {
   text-align: center;
   width: 400px;
 }
-
-.ceo img {
+.fundadores .ceo img {
   border-radius: 50%;
 }
 
