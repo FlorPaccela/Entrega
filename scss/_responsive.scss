@@ -11,17 +11,15 @@
         align-items: center;
         justify-content: space-evenly;
         grid-area: nav;
-    }
-
-    nav a {
-        margin-bottom: 10px;
-    }
-
-    nav ul {
-        margin-bottom: 10px;
-        text-align: center;
-        margin-left: 5%;
-        margin-right: 5%;
+        a {
+            margin-bottom: 10px;
+        }
+        ul {
+            margin-bottom: 10px;
+            text-align: center;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
     }
 
     h1 {
@@ -44,66 +42,59 @@
         align-items: center;
         justify-content: space-evenly;
         grid-area: footer;
+        a {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .redes {
+            margin-bottom: 20px;
+        }
     }
-
-    footer a {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    footer p {
-        margin-bottom: 20px;
-    }
-    
-    footer .redes {
-        margin-bottom: 20px;
-    }
-
 
     header {
         height: 450px;
         margin-top: 32px;
         padding-top: 25px;
         padding-left: 25px;
+        .banner {
+            width: 70%;
+            margin-left: 5%;
+            text-align: none;
+        }
     }
 
-    .banner {
-        width: 70%;
-        margin-left: 5%;
-        text-align: none;
-    }
-
+    
     .comentarios {
         margin-top: 32px;
         margin-bottom: 32px;
         text-align: center;
-    }
-
-    .comentariosDeUsuarios {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-     }
-     
-    .comentario {
-        text-align: center;
-        height: auto;
-        width: 250px;
-        margin-bottom: 32px;
-        padding: 0px;
-        position: relative;
-    }
-
-    .info {
-        margin-top: 32px;
-        text-align: center;
-        margin-left: 0px;
+        .comentariosDeUsuarios {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .comentario {
+                margin: 8px;
+                text-align: center;
+                height: auto;
+                width: 250px;
+                margin-bottom: 32px;
+                padding: 0px;
+                position: relative;
+            }
+        }
     }
 
     .informacion {
         margin-top: 32px;
         margin-bottom: 32px;
+        .info {
+            margin-top: 32px;
+            text-align: left;
+            margin-left: 20px;
+        }
     }
 
     /*COMO FUNCIONA*/
@@ -160,20 +151,21 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        .notaPrincipal {
+            margin-left: 0px;
+            margin-top: 0px;
+            text-align: center;
+        }
+        h3 {
+            margin-top: 10px;
+        }
+        img {
+            width: 80%;
+        }
     }
 
-    .notaPrincipal {
-        margin-left: 0px;
-        margin-top: 0px;
-        text-align: center;
-     }
-
-    .ultimaNoticia h3 {
-        margin-top: 10px;
-    }
-
-    .ultimaNoticia img {
-        width: 80%;
+    .nota {
+        margin-bottom: 12px;
     }
 
     .novedades img {
@@ -184,8 +176,6 @@
     .ceo {
         margin-bottom: 40px;
     }
-
-
 }
 
 
@@ -246,18 +236,16 @@
         align-items: center;
         justify-content: center;
         margin-top: 24px;
-     }
-
-     .ajustePasos {
-        margin-left: 0px;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .ajustePasos2 {
+        .ajustePasos {
+            margin-left: 0px;
+            align-items: center;
+            text-align: center;
+        }
+        .ajustePasos2 {
         margin-right: 0px;
         text-align: none;
         align-items: center;
+        }
     }
 
     /*PREGUNTAS*/
@@ -316,22 +304,18 @@
         align-items: center;
     }
 
-    
     /*NOSOTROS*/
     .descripcion {
         margin-left: 10%;
         margin-right: 10%;
     }
 
-   
-    .info {
-        text-align: center;
-        margin-left: 0px;
-    }
-
     .informacion {
         margin-top: 24px;
         margin-bottom: 24px;
+        .info {
+            text-align: center;
+            margin-left: 0px;
+        }
     }
-    
 }

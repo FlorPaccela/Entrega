@@ -266,8 +266,7 @@ header {
 header h2 {
   padding-bottom: 30px;
 }
-
-.banner {
+header .banner {
   width: 50%;
 }
 
@@ -717,7 +716,7 @@ footer {
     padding-top: 25px;
     padding-left: 25px;
   }
-  .banner {
+  header .banner {
     width: 70%;
     margin-left: 5%;
     text-align: none;
@@ -727,12 +726,13 @@ footer {
     margin-bottom: 32px;
     text-align: center;
   }
-  .comentariosDeUsuarios {
+  .comentarios .comentariosDeUsuarios {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .comentario {
+  .comentarios .comentariosDeUsuarios .comentario {
+    margin: 8px;
     text-align: center;
     height: auto;
     width: 250px;
@@ -740,14 +740,14 @@ footer {
     padding: 0px;
     position: relative;
   }
-  .info {
-    margin-top: 32px;
-    text-align: center;
-    margin-left: 0px;
-  }
   .informacion {
     margin-top: 32px;
     margin-bottom: 32px;
+  }
+  .informacion .info {
+    margin-top: 32px;
+    text-align: left;
+    margin-left: 20px;
   }
   /*COMO FUNCIONA*/
   .titulo {
@@ -790,7 +790,7 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  .notaPrincipal {
+  .ultimaNoticia .notaPrincipal {
     margin-left: 0px;
     margin-top: 0px;
     text-align: center;
@@ -800,6 +800,9 @@ footer {
   }
   .ultimaNoticia img {
     width: 80%;
+  }
+  .nota {
+    margin-bottom: 12px;
   }
   .novedades img {
     margin-bottom: 20px;
@@ -856,12 +859,12 @@ footer {
     justify-content: center;
     margin-top: 24px;
   }
-  .ajustePasos {
+  .paso .ajustePasos {
     margin-left: 0px;
     align-items: center;
     text-align: center;
   }
-  .ajustePasos2 {
+  .paso .ajustePasos2 {
     margin-right: 0px;
     text-align: none;
     align-items: center;
@@ -910,13 +913,13 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
   }
-  .info {
-    text-align: center;
-    margin-left: 0px;
-  }
   .informacion {
     margin-top: 24px;
     margin-bottom: 24px;
+  }
+  .informacion .info {
+    text-align: center;
+    margin-left: 0px;
   }
 }
 
