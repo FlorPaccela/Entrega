@@ -206,13 +206,13 @@
         padding-top: 40px;
         padding-left: 20px;
         padding-right: 20px;
+        .banner {
+            width: 100%;
+            text-align: left;
+        }
     }
 
-    .banner {
-        width: 100%;
-        text-align: center;
-    }
-
+    
    
     .comentario {
         text-align: center;
@@ -279,7 +279,7 @@
     /* TIENDAS */
     .marcas {
         margin-bottom: 24px;
-        ;
+        
     }
     
     .galeriaTiendas {
