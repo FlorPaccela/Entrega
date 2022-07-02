@@ -835,9 +835,9 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .banner {
+  header .banner {
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   .comentario {
     text-align: center;
