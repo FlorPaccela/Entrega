@@ -1,11 +1,5 @@
 /*comentario*/
 @import url("https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,400;0,700;1,100 & display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .preguntan-uno {
   color: #0F8F6E;
 }
@@ -28,6 +22,12 @@
 
 .preguntan-seis {
   color: #d00f4f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -100,54 +100,6 @@ p {
   font-weight: 350;
 }
 
-.preguntan-uno {
-  color: #0F8F6E;
-}
-
-.preguntan-dos {
-  color: #1073ac;
-}
-
-.preguntan-tres {
-  color: #0f32d0;
-}
-
-.preguntan-cuatro {
-  color: #5f0fd0;
-}
-
-.preguntan-cinco {
-  color: #d00fc3;
-}
-
-.preguntan-seis {
-  color: #d00f4f;
-}
-
-.preguntan-uno {
-  color: #0F8F6E;
-}
-
-.preguntan-dos {
-  color: #1073ac;
-}
-
-.preguntan-tres {
-  color: #0f32d0;
-}
-
-.preguntan-cuatro {
-  color: #5f0fd0;
-}
-
-.preguntan-cinco {
-  color: #d00fc3;
-}
-
-.preguntan-seis {
-  color: #d00f4f;
-}
-
 .button, .buttonPlay {
   background-color: #0F8F6E;
   color: #f4f2f2;
@@ -166,30 +118,6 @@ p {
 }
 .buttonPlay:hover {
   background-color: rgb(10, 188, 179);
-}
-
-.preguntan-uno {
-  color: #0F8F6E;
-}
-
-.preguntan-dos {
-  color: #1073ac;
-}
-
-.preguntan-tres {
-  color: #0f32d0;
-}
-
-.preguntan-cuatro {
-  color: #5f0fd0;
-}
-
-.preguntan-cinco {
-  color: #d00fc3;
-}
-
-.preguntan-seis {
-  color: #d00f4f;
 }
 
 ul {
@@ -229,35 +157,11 @@ nav {
   transform: scale(1.1, 1.1);
 }
 
-.preguntan-uno {
-  color: #0F8F6E;
-}
-
-.preguntan-dos {
-  color: #1073ac;
-}
-
-.preguntan-tres {
-  color: #0f32d0;
-}
-
-.preguntan-cuatro {
-  color: #5f0fd0;
-}
-
-.preguntan-cinco {
-  color: #d00fc3;
-}
-
-.preguntan-seis {
-  color: #d00f4f;
-}
-
 header {
   height: 450px;
   margin-top: 40px;
   margin-bottom: 40px;
-  background-image: url(../imagenes/icons/banner.jpg);
+  background-image: url(../banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50px;
@@ -336,30 +240,6 @@ header .banner {
   margin-left: 30px;
 }
 
-.preguntan-uno {
-  color: #0F8F6E;
-}
-
-.preguntan-dos {
-  color: #1073ac;
-}
-
-.preguntan-tres {
-  color: #0f32d0;
-}
-
-.preguntan-cuatro {
-  color: #5f0fd0;
-}
-
-.preguntan-cinco {
-  color: #d00fc3;
-}
-
-.preguntan-seis {
-  color: #d00f4f;
-}
-
 .titulo {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -415,30 +295,6 @@ header .banner {
 .videoExplicativo iframe {
   width: 660px;
   height: 415px;
-}
-
-.preguntan-uno {
-  color: #0F8F6E;
-}
-
-.preguntan-dos {
-  color: #1073ac;
-}
-
-.preguntan-tres {
-  color: #0f32d0;
-}
-
-.preguntan-cuatro {
-  color: #5f0fd0;
-}
-
-.preguntan-cinco {
-  color: #d00fc3;
-}
-
-.preguntan-seis {
-  color: #d00f4f;
 }
 
 #grillaAreas {
@@ -624,30 +480,6 @@ header .banner {
 }
 .fundadores .ceo img {
   border-radius: 50%;
-}
-
-.preguntan-uno {
-  color: #0F8F6E;
-}
-
-.preguntan-dos {
-  color: #1073ac;
-}
-
-.preguntan-tres {
-  color: #0f32d0;
-}
-
-.preguntan-cuatro {
-  color: #5f0fd0;
-}
-
-.preguntan-cinco {
-  color: #d00fc3;
-}
-
-.preguntan-seis {
-  color: #d00f4f;
 }
 
 footer {
