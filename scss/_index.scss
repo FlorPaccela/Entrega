@@ -68,5 +68,12 @@ header {
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
+    background-color: $colorSecundario;
+    padding: 8px;
+    border-radius: 16px;
+    p {
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
     
 }
