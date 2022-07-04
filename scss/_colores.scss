@@ -7,18 +7,5 @@ $grey1: #3E3E3E;
 $grey2: #727272;
 
 
-$map: (
-    uno: #0F8F6E,
-    dos: #1073ac,
-    tres:#0f32d0,
-    cuatro: #5f0fd0,
-    cinco:#d00fc3,
-    seis:#d00f4f,
-);
 
-@each $nombre, $valor in $map {
-    .preguntan-#{$nombre}{
-        color: $valor;
-    }
-}
 
